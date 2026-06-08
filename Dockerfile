@@ -19,6 +19,7 @@ RUN apt-get update \
     cmake \
     cpio \
     curl \
+    dialog \
     docker.io \
     file \
     flex \

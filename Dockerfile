@@ -29,6 +29,7 @@ RUN apt-get update \
     kmod \
     less \
     libelf-dev \
+    libegl1 \
     libncurses-dev \
     libssl-dev \
     make \
@@ -39,6 +40,8 @@ RUN apt-get update \
     pkg-config \
     python3 \
     python3-pip \
+    qemu-system-gui \
+    qemu-system-modules-opengl \
     qemu-system-x86 \
     qemu-utils \
     rsync \

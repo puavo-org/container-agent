@@ -37,11 +37,11 @@ SUID can be enabled by editing `/etc/docker/daemon.json` and adding
 Initialize `.env` and start the container:
 
 ```sh
-just init docker-agent
+make init NAME=docker-agent
 docker compose up --build
 ```
 
-Override can be done with, for example, `just RUN=runc init`.
+Override can be done with, for example, `make init NAME=docker-agent RUN=runc`.
 
 A development shell can be opened inside the container as follows:
 
